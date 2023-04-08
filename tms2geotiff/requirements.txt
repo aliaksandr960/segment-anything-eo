@@ -1,0 +1,4 @@
+gdal
+pillow
+numpy
+httpx
