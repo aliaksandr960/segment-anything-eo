@@ -50,7 +50,7 @@ class SamEO:
         self.mask_generator = SamAutomaticMaskGenerator(self.sam, **sam_kwargs)
     
     def __call__(self, image):
-        h, w, c = image.shape
+        h, w, _ = image.shape
         
         resulting_mask = np.zeros((h, w), dtype=np.uint8)
         resulting_borders = np.zeros((h, w), dtype=np.uint8)
@@ -71,11 +71,11 @@ class SamEO:
         resulting_mask_with_borders = resulting_mask - resulting_borders
         return resulting_mask_with_borders *self.mask_multiplier
     
-    def tiff_to_tiff(self, in_path, out_path):
-        return sliding_window.tiff_to_tiff(in_path, out_path, self)
+    def tiff_to_tiff(self, in_path, out_path, **kwargs):
+        return sliding_window.tiff_to_tiff(in_path, out_path, self, **kwargs)
     
-    def image_to_image(self, image):
-        return sliding_window.image_to_image(image, self)
+    def image_to_image(self, image, **kwargs):
+        return sliding_window.image_to_image(image, self, **kwargs)
 
     def download_tms_as_tiff(self, source, pt1, pt2, zoom, dist):
         image = draw_tile(source, pt1[0], pt1[1], pt2[0], pt2[1],
