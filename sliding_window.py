@@ -120,7 +120,7 @@ def image_to_image(image, func,
 
 def tiff_to_image(src_fp, func,
                   data_to_rgb=chw_to_hwc,
-                  sample_size=(384, 384),
+                  sample_size=(512, 512),
                   sample_resize=None,
                   bound=128):
     
