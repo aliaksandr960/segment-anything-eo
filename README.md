@@ -18,7 +18,7 @@ and little a bit more
 - To process large images implemented a sliding window algorithm
 - To separate instances, every instance surrounded by 1px width spare space
 
-### Segment Anything was released less, than a week ago and there are first experiments with it. I not know how paramters affect perfomance - feel free to change everything.
+***Segment Anything was released less, than a week ago and there are first experiments with it. I not know how paramters affect perfomance - feel free to change everything.***
 
 # Licensing
 
