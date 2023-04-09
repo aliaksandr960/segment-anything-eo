@@ -4,7 +4,7 @@
 # Segment Anything EO tools
 Earth observation tools for Meta AI Segment Anything
 
-## This tool is developed to easy process spatial data (GeoTIFF and TMS) with Meta AI Segment Anything models
+## This tools is developed to easy process spatial data (GeoTIFF and TMS) with Meta AI Segment Anything models
 
 ### You can:
 - download TMS data (including OpenAerialMap and Mapbox Maxar) as GeoTIFF files
