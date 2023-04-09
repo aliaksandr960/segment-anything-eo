@@ -22,13 +22,14 @@ and little a bit more
 
 # Licensing
 
-Segment Anything https://github.com/facebookresearch/segment-anything
+Facebookresearch Segment Anything https://github.com/facebookresearch/segment-anything
 Apache-2.0 license 
 
-tms2geotiff https://github.com/gumblex/tms2geotiff
+Gumblex tms2geotiff https://github.com/gumblex/tms2geotiff
 BSD-2-Clause license 
 
 Other code MIT license
 
+### Segment Anything and tms2geotiff copied to this repo 9 Apr 2022, you could update them to more recent versions if needed
 
 ![Alt text](title_sameo.png?raw=true "Title")
