@@ -19,7 +19,7 @@ and little a bit more
 
 ### Technical details:
 - To process large images implemented a sliding window algorithm
-- To separate instances, every instance surrounded by 1px width spare space
+- To separate instances, every instance surrounded by 1px width spare space, so it is not the same how original Segment Anything works
 
 ***Segment Anything was released less, than a week ago and there are first experiments with it. I not know how paramters affect perfomance - feel free to change everything.***
 
