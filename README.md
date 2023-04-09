@@ -1,3 +1,6 @@
+
+![Alt text](title_sameo.png?raw=true "Title")
+
 # Segment Anything EO tools
 Earth observation tools for Meta AI Segment Anything
 
@@ -31,5 +34,3 @@ BSD-2-Clause license
 Other code MIT license
 
 ***Segment Anything and tms2geotiff copied to this repo 9 Apr 2022, you could update them to more recent versions if needed***
-
-![Alt text](title_sameo.png?raw=true "Title")
