@@ -1,3 +1,4 @@
+***I suggest you use https://github.com/opengeos/segment-geospatial instead of this repo. It was the first successful attempt to join SAM and EO data, but now there are much better documented and much better maintained options.***
 
 ![Automatic segmentation example](title_sameo.png?raw=true "Automatic segmentation example")
 
