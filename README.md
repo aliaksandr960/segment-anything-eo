@@ -11,7 +11,7 @@ Earth observation tools for Meta AI Segment Anything
 
 [Gumblex tms2geotiff](https://github.com/gumblex/tms2geotiff) &mdash; BSD-2-Clause license
 
-[aeronetlib](https://github.com/facebookresearch/segment-anything) &mdash; MIT licence
+[aeronetlib](https://github.com/Geoalert/aeronetlib) &mdash; MIT licence
 
 
 
