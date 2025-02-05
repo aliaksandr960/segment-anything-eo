@@ -29,7 +29,6 @@ Other code &mdash; MIT license
 and a little bit more
 
 ### Usage:
-- colab notebook https://colab.research.google.com/drive/1RC1V68tD1O-YissBq9nOvS2PHEjAsFkA?usp=share_link
 - jupyter notebook in the repo https://github.com/aliaksandr960/segment-anything-eo/blob/main/basic_usage.ipynb
 
 ### Technical details:
